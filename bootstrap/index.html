@@ -29,7 +29,31 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
+  <script>
+    <!--
+      function getObj(name){
+        if (document.getElementById){
+          return document.getElementById(name);
+        }else if (document.all){
+          return document.all[name];
+        }else if (document.layers){
+          return document.layers[name];
+        }
+      }    
+      function hide(id){
+          try{
+            var obj=getObj(id);
+            obj.style.visibility='hidden';
+          }catch(e){}
+      }
+      function show(id){
+          try{
+            var obj=getObj(id);
+            obj.style.visibility='visible';
+          }catch(e){}
+      }
+      -->
+  </script>
   <body>
     <div class="container">
 
@@ -39,9 +63,16 @@
       </div>
 
       <div class="row">
-        <div class="col-md-3">
-          <img src="assets/img/thumbs/ehtimeline.jpg" />
-          <br />English Heritage Timeline
+        <div class="col-md-3" onmouseover="this.style.backgroundColor='#E1E1E1'; hide('lstProjects_title0'); show('lstProjects_details0');" onmouseout="this.style.backgroundColor='#FAFAFA'; show('lstProjects_title0'); hide('lstProjects_details0');" style="background-color: rgb(250, 250, 250);">
+          <a href="/case_studies/index.html">
+            <img src="assets/img/thumbs/ehtimeline.jpg" alt="English Heritage Interactive Timeline" title="English Heritage Interactive Timeline">
+          </a>
+          <div id="lstProjects_title0" class="title" style="visibility: visible;">English Heritage Timeline</div>
+          <div id="lstProjects_details0" class="details" style="visibility: hidden;">
+          <a href="/case_studies/index.html">View Details</a><br>
+          <a href="http://www.english-heritage.org.uk/daysout/properties/dover-castle/wartime-tunnels/operation-dynamo/timeline/" target="_blank">View Live</a></div></div>
+          <!--<img src="assets/img/thumbs/ehtimeline.jpg" />
+          <br />English Heritage Timeline-->
         </div>
         <div class="col-md-3">
           <img src="assets/img/thumbs/gartner.jpg" />
