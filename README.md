@@ -1,4 +1,4 @@
-unwrong-site-bootstrap
+unwrong-site
 ======================
 
-Playground for Rob to learn Bootstrap
+Playground for Rob to learn Bootstrap & AngularJS
