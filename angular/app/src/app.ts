@@ -15,11 +15,11 @@ phonecatApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/projects', {
-        templateUrl: 'partials/phone-list.html',
+        templateUrl: 'partials/project-list.html',
         controller: 'ProjectListCtrl'
       }).
         when('/projects/:phoneId', {
-        templateUrl: 'partials/phone-detail.html',
+        templateUrl: 'partials/project-detail.html',
         controller: 'ProjectDetailCtrl'
       }).
       otherwise({

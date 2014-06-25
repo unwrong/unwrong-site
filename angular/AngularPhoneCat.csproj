@@ -29,8 +29,8 @@
     <TypeScriptCompile Include="app\src\filters.ts" />
     <TypeScriptCompile Include="app\defs\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="app\src\services.ts" />
-    <Content Include="app\partials\phone-detail.html" />
-    <Content Include="app\partials\phone-list.html" />
+    <Content Include="app\partials\project-detail.html" />
+    <Content Include="app\partials\project-list.html" />
     <Content Include="app\projects\dell-streak-7.json" />
     <Content Include="app\projects\dell-venue.json" />
     <Content Include="app\projects\droid-2-global-by-motorola.json" />
