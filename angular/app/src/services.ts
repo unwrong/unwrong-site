@@ -2,11 +2,16 @@
 
 /* Services */
 
-var phonecatServices = angular.module('phonecatServices', ['ngResource']);
+class Phone {
+    public init($resource) {
+        return $resource('projects/:projectId.json', {}, {
+            query: { method: 'GET', params: { projectId: 'projects' }, isArray: true }
+        });
+    }
+}
 
-phonecatServices.factory('Phone', ['$resource',
-  function($resource){
-    return $resource('phones/:phoneId.json', {}, {
-      query: {method:'GET', params:{phoneId:'phones'}, isArray:true}
-    });
-  }]);
+var phone: Phone = new Phone();
+
+var phonecatServices:ng.IModule = angular.module('phonecatServices', ['ngResource']);
+
+phonecatServices.factory('Phone', ['$resource', phone.init]);
