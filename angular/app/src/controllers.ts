@@ -18,16 +18,16 @@ class ProjectListCtrl {
         var element: HTMLElement = this.getObj(id);
         element.style.backgroundColor = '#E1E1E1';
 
-        this.show(id + 'details');
-        this.hide(id + 'title');
+        this.show(id + '-details');
+        this.hide(id + '-title');
     }
 
     private defaultState = (id: string) => {
         var element: HTMLElement = this.getObj(id);
         element.style.backgroundColor = '#FAFAFA';
 
-        this.hide(id + 'details');
-        this.show(id + 'title');
+        this.hide(id + '-details');
+        this.show(id + '-title');
     }
 
     private getObj(id: string):HTMLElement {
@@ -47,7 +47,7 @@ class ProjectListCtrl {
             obj.style.visibility = 'hidden';
         } catch (e) { }
     }
-    private show(id: string):void{
+    private show(id: string):void {
         try {
             var obj = this.getObj(id);
             obj.style.visibility = 'visible';

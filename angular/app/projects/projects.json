@@ -1,25 +1,25 @@
 [
     {
         "age": 0, 
-        "id": "motorola-xoom-with-wi-fi", 
+        "id": "eh-timeline", 
         "imageUrl": "img/thumbs/ehtimeline.jpg", 
         "name": "English Heritage Timeline"
     }, 
     {
         "age": 1, 
-        "id": "motorola-xoom", 
+        "id": "gartner", 
         "imageUrl": "img/thumbs/gartner.jpg", 
         "name": "Gartner Symposium 2011"
     }, 
     {
         "age": 2, 
-        "id": "motorola-atrix-4g", 
+        "id": "flash_mob", 
         "imageUrl": "img/thumbs/ophelia.jpg", 
         "name": "Ophelia Fancy Flash Mob"
     }, 
     {
         "age": 3, 
-        "id": "dell-streak-7", 
+        "id": "recess", 
         "imageUrl": "img/thumbs/keen.jpg", 
         "name": "Keen Recess"
     }, 
