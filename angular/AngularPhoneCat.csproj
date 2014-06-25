@@ -19,6 +19,7 @@
   <ItemGroup>
     <Content Include="app\css\animations.css" />
     <Content Include="app\css\app.css" />
+    <Content Include="app\css\grid.css" />
     <Content Include="app\index.html" />
     <TypeScriptCompile Include="app\defs\angular\angular.d.ts" />
     <TypeScriptCompile Include="app\src\animations.ts" />

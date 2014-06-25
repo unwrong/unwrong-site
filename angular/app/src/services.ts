@@ -2,7 +2,7 @@
 
 /* Services */
 
-class Phone {
+class Project {
     public init($resource) {
         return $resource('projects/:projectId.json', {}, {
             query: { method: 'GET', params: { projectId: 'projects' }, isArray: true }
@@ -10,8 +10,7 @@ class Phone {
     }
 }
 
-var phone: Phone = new Phone();
+var project: Project = new Project();
 
-var phonecatServices:ng.IModule = angular.module('phonecatServices', ['ngResource']);
-
-phonecatServices.factory('Phone', ['$resource', phone.init]);
+var services:ng.IModule = angular.module('phonecatServices', ['ngResource']);
+services.factory('Project', ['$resource', project.init]);

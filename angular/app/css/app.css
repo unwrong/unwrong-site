@@ -14,9 +14,9 @@ body {
   float: left;
 }
 
-.phones {
+/*.phones {
   list-style: none;
-}
+}*/
 
 .thumb {
   float: left;
@@ -26,11 +26,11 @@ body {
   width: 100px;
 }
 
-.phones li {
+/*.phones li {
   clear: both;
   height: 115px;
   padding-top: 15px;
-}
+}*/
 
 /** Detail View **/
 img.phone {

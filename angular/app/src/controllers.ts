@@ -2,21 +2,23 @@
 
 /* Controllers */
 
-class PhoneListCtrl {
+// RouteProvider defaults us to PhoneListCtrl & associates phone-list.html as the view.
+class ProjectListCtrl {
 
-    public init($scope, Phone):void {
-        $scope.phones = Phone.query();
+    public init($scope, Project): void {
+        // create a "projects" property on the view, containing the query data.
+        $scope.projects = Project.query();
         $scope.orderProp = 'age';
     }
 }
 
-class PhoneDetailCtrl {
-    private $scope;
+class ProjectDetailCtrl {
+    private _scope;
 
-    public init($scope, $routeParams, Phone): void {
-        this.$scope = $scope;
+    public init($scope, $routeParams, Project): void {
+        this._scope = $scope;
 
-        $scope.phone = Phone.get({ projectId: $routeParams.phoneId }, function (phone) {
+        $scope.phone = Project.get({ projectId: $routeParams.phoneId }, function (phone) {
             $scope.mainImageUrl = phone.images[0];
         });
 
@@ -26,11 +28,10 @@ class PhoneDetailCtrl {
     }
 }
 
-var phoneListCtrl: PhoneListCtrl = new PhoneListCtrl();
-var phoneDetailCtrl: PhoneDetailCtrl = new PhoneDetailCtrl();
+var projectListCtrl: ProjectListCtrl = new ProjectListCtrl();
+var projectDetailCtrl: ProjectDetailCtrl = new ProjectDetailCtrl();
 
-var phonecatControllers: ng.IModule = angular.module('phonecatControllers', []);
-
-phonecatControllers.controller('PhoneListCtrl', ['$scope', 'Phone', phoneListCtrl.init]);
-phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone', phoneDetailCtrl.init]);
+var controllers: ng.IModule = angular.module('phonecatControllers', []);
+controllers.controller('ProjectListCtrl', ['$scope', 'Project', projectListCtrl.init]);
+controllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', 'Project', projectDetailCtrl.init]);
 
