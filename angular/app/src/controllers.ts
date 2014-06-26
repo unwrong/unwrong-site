@@ -77,4 +77,3 @@ var projectDetailCtrl: ProjectDetailCtrl = new ProjectDetailCtrl();
 var controllers: ng.IModule = angular.module('phonecatControllers', []);
 controllers.controller('ProjectListCtrl', ['$scope', 'Project', projectListCtrl.init]);
 controllers.controller('ProjectDetailCtrl', ['$scope', '$routeParams', 'Project', projectDetailCtrl.init]);
-
