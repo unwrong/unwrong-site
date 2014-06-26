@@ -43,7 +43,7 @@
     <Content Include="app\projects\motorola-defy-with-motoblur.json" />
     <Content Include="app\projects\eh-timeline.json" />
     <Content Include="app\projects\gartner.json" />
-    <Content Include="app\projects\nexus-s.json" />
+    <Content Include="app\projects\desire.json" />
     <Content Include="app\projects\projects.json" />
     <Content Include="app\projects\samsung-galaxy-tab.json" />
     <Content Include="app\projects\happy_snaps.json" />
