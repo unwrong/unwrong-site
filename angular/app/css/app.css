@@ -4,11 +4,11 @@ body {
   padding-top: 20px;
 }
 
-
+/* main image in phone-detail view*/
 .phone-images {
   background-color: white;
   width: 450px;
-  height: 450px;
+  height: 300px;
   overflow: hidden;
   position: relative;
   float: left;
@@ -62,8 +62,8 @@ ul.phone-thumbs li {
 }
 
 ul.phone-thumbs img {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 113px;
   padding: 1em;
 }
 

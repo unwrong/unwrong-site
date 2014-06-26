@@ -1,23 +1,24 @@
 ﻿<!doctype html>
 <html lang="en" ng-app="phonecatApp">
 <head>
-  <meta charset="utf-8">
-  <title>We Are Unwrong</title>
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-  <link rel="stylesheet" href="css/grid.css" />
-  <link rel="stylesheet" href="css/app.css">
-  <link rel="stylesheet" href="css/animations.css">
+    <meta charset="utf-8">
+    <title>We Are Unwrong</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/sticky-footer.css">
 
-  <script src="bower_components/jquery/jquery.js"></script>
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-animate/angular-animate.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="bower_components/angular-resource/angular-resource.js"></script>
-  <script src="src/app.js"></script>
-  <script src="src/animations.js"></script>
-  <script src="src/controllers.js"></script>
-  <script src="src/filters.js"></script>
-  <script src="src/services.js"></script>
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="src/app.js"></script>
+    <script src="src/animations.js"></script>
+    <script src="src/controllers.js"></script>
+    <script src="src/filters.js"></script>
+    <script src="src/services.js"></script>
 </head>
 <body>
 
@@ -59,5 +60,10 @@
         <div ng-view class="view-frame"></div>
     </div>
 
+    <div id="footer">
+        <div class="container footerContainer">
+            <p class="text-muted">Copyright Unwrong Ltd 2014. All rights reserved.</p>
+        </div>
+    </div>
 </body>
 </html>
