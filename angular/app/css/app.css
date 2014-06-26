@@ -4,7 +4,23 @@ body {
   padding-top: 20px;
 }
 
-/* main image in phone-detail view*/
+/* Project-list view */
+#listing-inner {
+    width: 50%;
+    margin: 0 auto;
+    border:  5px solid red;
+}
+
+/*.phones {
+  list-style: none;
+}*/
+
+/* PROJECT DETAIL VIEW */
+/* main image */
+.project-detail {
+  margin-top: 3em;
+}
+
 .phone-images {
   background-color: white;
   width: 450px;
@@ -13,10 +29,6 @@ body {
   position: relative;
   float: left;
 }
-
-/*.phones {
-  list-style: none;
-}*/
 
 .thumb {
   float: left;
@@ -32,13 +44,12 @@ body {
   padding-top: 15px;
 }*/
 
-/** Detail View **/
 img.phone {
   float: left;
   margin-right: 3em;
   margin-bottom: 2em;
   background-color: white;
-  padding: 2em;
+  padding: 0em;
   height: 400px;
   width: 400px;
   display: none;
@@ -57,41 +68,18 @@ ul.phone-thumbs {
 ul.phone-thumbs li {
   border: 1px solid black;
   display: inline-block;
-  margin: 1em;
+  margin: 0.25em;
   background-color: white;
 }
 
 ul.phone-thumbs img {
   height: 75px;
   width: 113px;
-  padding: 1em;
+  padding: 0em;
 }
 
 ul.phone-thumbs img:hover {
   cursor: pointer;
-}
-
-
-ul.specs {
-  clear: both;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-ul.specs > li{
-  display: inline-block;
-  width: 200px;
-  vertical-align: top;
-}
-
-ul.specs > li > span{
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-ul.specs dt {
-  font-weight: bold;
 }
 
 h1 {

@@ -46,7 +46,7 @@
     <Content Include="app\projects\nexus-s.json" />
     <Content Include="app\projects\projects.json" />
     <Content Include="app\projects\samsung-galaxy-tab.json" />
-    <Content Include="app\projects\samsung-gem.json" />
+    <Content Include="app\projects\happy_snaps.json" />
     <Content Include="app\projects\samsung-mesmerize-a-galaxy-s-phone.json" />
     <Content Include="app\projects\samsung-showcase-a-galaxy-s-phone.json" />
     <Content Include="app\projects\samsung-transform.json" />
