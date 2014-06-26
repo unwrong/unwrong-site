@@ -33,7 +33,7 @@
     <Content Include="app\partials\project-detail.html" />
     <Content Include="app\partials\project-list.html" />
     <Content Include="app\projects\recess.json" />
-    <Content Include="app\projects\dell-venue.json" />
+    <Content Include="app\projects\thom_sweeney.json" />
     <Content Include="app\projects\droid-2-global-by-motorola.json" />
     <Content Include="app\projects\droid-pro-by-motorola.json" />
     <Content Include="app\projects\lg-axis.json" />

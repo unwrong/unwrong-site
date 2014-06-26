@@ -15,7 +15,7 @@ class ProjectListCtrl {
     }
 
     private overState = (id: string) => {
-        var element: HTMLElement = this.getObj(id);
+        var element: HTMLElement = this.getObj( id + '-inner' );
         element.style.backgroundColor = '#E1E1E1';
 
         this.show(id + '-details');
@@ -23,7 +23,7 @@ class ProjectListCtrl {
     }
 
     private defaultState = (id: string) => {
-        var element: HTMLElement = this.getObj(id);
+        var element: HTMLElement = this.getObj( id + '-inner' );
         element.style.backgroundColor = '#FAFAFA';
 
         this.hide(id + '-details');
