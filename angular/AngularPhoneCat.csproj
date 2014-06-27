@@ -29,6 +29,7 @@
     <Content Include="app\css\grid.css" />
     <Content Include="app\css\sticky-footer.css" />
     <Content Include="app\index.html" />
+    <Content Include="app\_index.html" />
     <TypeScriptCompile Include="app\defs\angular\angular.d.ts" />
     <TypeScriptCompile Include="app\src\animations.ts" />
     <TypeScriptCompile Include="app\src\app.ts" />
