@@ -24,10 +24,13 @@
     <Content Include="app\bower_components\angular\angular.js" />
     <Content Include="app\bower_components\bootstrap\dist\css\bootstrap.css" />
     <Content Include="app\bower_components\jquery\jquery.js" />
+    <Content Include="app\css2\grid.css" />
+    <Content Include="app\css2\theme.css" />
     <Content Include="app\css\animations.css" />
     <Content Include="app\css\app.css" />
     <Content Include="app\css\grid.css" />
     <Content Include="app\css\sticky-footer.css" />
+    <Content Include="app\css2\project-detail.css" />
     <Content Include="app\index.html" />
     <Content Include="app\_index.html" />
     <TypeScriptCompile Include="app\defs\angular\angular.d.ts" />
