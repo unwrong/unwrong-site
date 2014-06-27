@@ -17,6 +17,13 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="app\03_thumbs.html" />
+    <Content Include="app\bower_components\angular-animate\angular-animate.js" />
+    <Content Include="app\bower_components\angular-resource\angular-resource.js" />
+    <Content Include="app\bower_components\angular-route\angular-route.js" />
+    <Content Include="app\bower_components\angular\angular.js" />
+    <Content Include="app\bower_components\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="app\bower_components\jquery\jquery.js" />
     <Content Include="app\css\animations.css" />
     <Content Include="app\css\app.css" />
     <Content Include="app\css\grid.css" />
