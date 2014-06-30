@@ -50,7 +50,6 @@
     <Content Include="app\projects\pointstream.json" />
     <Content Include="app\projects\flash_mob.json" />
     <Content Include="app\projects\frozen_pole.json" />
-    <Content Include="app\projects\motorola-charm-with-motoblur.json" />
     <Content Include="app\projects\shadow_napping.json" />
     <Content Include="app\projects\eh-timeline.json" />
     <Content Include="app\projects\gartner.json" />
@@ -58,17 +57,18 @@
     <Content Include="app\projects\projects.json" />
     <Content Include="app\projects\mcsaatchi.json" />
     <Content Include="app\projects\happy_snaps.json" />
-    <Content Include="app\projects\samsung-mesmerize-a-galaxy-s-phone.json" />
+    <Content Include="app\projects\samsung_pixon.json" />
     <Content Include="app\projects\kingmaker.json" />
-    <Content Include="app\projects\samsung-transform.json" />
-    <Content Include="app\projects\sanyo-zio.json" />
-    <Content Include="app\projects\t-mobile-g2.json" />
+    <Content Include="app\projects\heinz_soups.json" />
+    <Content Include="app\projects\samsung_freestyle.json" />
     <Content Include="app\projects\klaklak.json" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\projects\ilovedust.json" />
+    <Content Include="app\projects\istanbul_gp.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

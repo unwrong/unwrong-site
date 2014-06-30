@@ -91,79 +91,91 @@
     }, 
     {
         "age": 15,
-        "id": "samsung-mesmerize-a-galaxy-s-phone", 
+        "id": "samsung_pixon", 
         "imageUrl": "img/thumbs/samsung_pixon.jpg", 
         "name": "Samsung Pixon"
-    }, 
+    },
     {
         "age": 16, 
-        "id": "sanyo-zio", 
+        "id": "samsung_music", 
+        "imageUrl": "img/thumbs/samsung_music.jpg", 
+        "name": "Samsung Music"
+    },   
+    {
+        "age": 16, 
+        "id": "sprintfit", 
         "imageUrl": "img/thumbs/sprintfit.jpg", 
         "name": "Reebok Sprintfit"
     }, 
     {
+        "age": 16, 
+        "id": "ilovedust", 
+        "imageUrl": "img/thumbs/ilovedust.jpg", 
+        "name": "I Love Dust"
+    },
+    {
         "age": 17, 
-        "id": "samsung-transform", 
+        "id": "heinz_soups", 
         "imageUrl": "img/thumbs/heinz.jpg", 
         "name": "Heinz Soups"
     }, 
     {
         "age": 18, 
-        "id": "t-mobile-g2", 
+        "id": "samsung_freestyle", 
         "imageUrl": "img/thumbs/keepyups.jpg", 
         "name": "Samsung Freestyle Football"
     }, 
     {
         "age": 19, 
-        "id": "motorola-charm-with-motoblur", 
+        "id": "nokia_500", 
         "imageUrl": "img/thumbs/nokia_pnd.jpg", 
         "name": "Nokia 500 PND"
     }, 
     {
         "age": 20, 
-        "id": "motorola-charm-with-motoblur", 
+        "id": "studio_lr", 
         "imageUrl": "img/thumbs/studiolr.jpg", 
         "name": "Studio LR"
     }, 
     {
         "age": 21, 
-        "id": "motorola-charm-with-motoblur", 
+        "id": "ld_comms", 
         "imageUrl": "img/thumbs/ldcomms.jpg", 
         "name": "LD Communications"
     }, 
     {
         "age": 22, 
-        "id": "motorola-charm-with-motoblur", 
+        "id": "communicator", 
         "imageUrl": "img/thumbs/communicatorworld.jpg", 
         "name": "Communicator World"
     }, 
     {
         "age": 23, 
-        "id": "motorola-charm-with-motoblur", 
+        "id": "hsbc_office", 
         "imageUrl": "img/thumbs/office.jpg", 
         "name": "HSBC Office Escape"
     }, 
     {
         "age": 24, 
-        "id": "motorola-charm-with-motoblur", 
+        "id": "fractal", 
         "imageUrl": "img/thumbs/fractalexplorer.jpg", 
         "name": "Fractal Explorer"
     }, 
     {
         "age": 25, 
-        "id": "motorola-charm-with-motoblur", 
+        "id": "ben_10", 
         "imageUrl": "img/thumbs/benTenAlienStrike.jpg", 
         "name": "Ben 10 Alien Strike"
     }, 
     {
         "age": 26, 
-        "id": "motorola-charm-with-motoblur", 
+        "id": "sky_world_cup", 
         "imageUrl": "img/thumbs/worldcupglory.jpg", 
         "name": "Sky Sports World Cup Glory"
     }, 
     {
         "age": 27, 
-        "id": "motorola-charm-with-motoblur", 
+        "id": "istanbul_gp", 
         "imageUrl": "img/thumbs/istanbulgp.jpg", 
         "name": "Istanbul GP"
     }, 
