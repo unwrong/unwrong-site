@@ -68,7 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\projects\ilovedust.json" />
-    <Content Include="app\projects\istanbul_gp.json" />
+    <Content Include="app\projects\hp_festive.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
