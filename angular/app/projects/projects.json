@@ -55,38 +55,37 @@
     }, 
     {
         "age": 9, 
-        "id": "samsung-showcase-a-galaxy-s-phone", 
+        "id": "kingmaker", 
         "imageUrl": "img/thumbs/kingmaker.jpg", 
         "name": "Fable III: Kingmaker"
     }, 
     {
         "age": 10,
-        "id": "droid-2-global-by-motorola", 
+        "id": "stella_cannes", 
         "imageUrl": "img/thumbs/cannes.jpg", 
         "name": "Stella Artois - Cannes"
     }, 
     {
         "age": 11, 
-        "carrier": "Verizon", 
-        "id": "droid-pro-by-motorola", 
+        "id": "dodgeball", 
         "imageUrl": "img/thumbs/dodgeball.jpg", 
         "name": "Doritos Dodgeball"
     }, 
     {
         "age": 12, 
-        "id": "motorola-bravo-with-motoblur", 
+        "id": "frozen_pole", 
         "imageUrl": "img/thumbs/frozen_pole.jpg", 
         "name": "Frozen Pole"
     }, 
     {
         "age": 13, 
-        "id": "motorola-defy-with-motoblur", 
+        "id": "shadow_napping", 
         "imageUrl": "img/thumbs/fostersSN.jpg", 
         "name": "Fosters Shadow Napping"
     }, 
     {
         "age": 14,
-        "id": "t-mobile-mytouch-4g", 
+        "id": "klaklak", 
         "imageUrl": "img/thumbs/klaklakgroup.jpg", 
         "name": "Klaklak Group"
     }, 

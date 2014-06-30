@@ -45,13 +45,13 @@
     <Content Include="app\partials\project-list.html" />
     <Content Include="app\projects\recess.json" />
     <Content Include="app\projects\thom_sweeney.json" />
-    <Content Include="app\projects\droid-2-global-by-motorola.json" />
-    <Content Include="app\projects\droid-pro-by-motorola.json" />
+    <Content Include="app\projects\stella_cannes.json" />
+    <Content Include="app\projects\dodgeball.json" />
     <Content Include="app\projects\pointstream.json" />
     <Content Include="app\projects\flash_mob.json" />
-    <Content Include="app\projects\motorola-bravo-with-motoblur.json" />
+    <Content Include="app\projects\frozen_pole.json" />
     <Content Include="app\projects\motorola-charm-with-motoblur.json" />
-    <Content Include="app\projects\motorola-defy-with-motoblur.json" />
+    <Content Include="app\projects\shadow_napping.json" />
     <Content Include="app\projects\eh-timeline.json" />
     <Content Include="app\projects\gartner.json" />
     <Content Include="app\projects\desire.json" />
@@ -59,11 +59,11 @@
     <Content Include="app\projects\mcsaatchi.json" />
     <Content Include="app\projects\happy_snaps.json" />
     <Content Include="app\projects\samsung-mesmerize-a-galaxy-s-phone.json" />
-    <Content Include="app\projects\samsung-showcase-a-galaxy-s-phone.json" />
+    <Content Include="app\projects\kingmaker.json" />
     <Content Include="app\projects\samsung-transform.json" />
     <Content Include="app\projects\sanyo-zio.json" />
     <Content Include="app\projects\t-mobile-g2.json" />
-    <Content Include="app\projects\t-mobile-mytouch-4g.json" />
+    <Content Include="app\projects\klaklak.json" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
