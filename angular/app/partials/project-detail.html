@@ -7,9 +7,9 @@
         <img ng-src="{{mainImageUrl}}" class="project">
     </div>
     <div>
-        <h1>{{project.name}}</h1>
+        <h1 ng-bind-html="parseHTML(project.name)"></h1>
 
-        <p>{{project.description}}</p>
+        <p ng-bind-html="parseHTML(project.description)"></p>
 
         <ul class="project-thumbs">
             <li ng-repeat="img in project.images">

@@ -43,13 +43,13 @@
     }, 
     {
         "age": 7, 
-        "id": "lg-axis", 
+        "id": "pointstream", 
         "imageUrl": "img/thumbs/pointstream.jpg", 
         "name": "US Open Pointstream"
     }, 
     {
         "age": 8, 
-        "id": "samsung-galaxy-tab", 
+        "id": "mcsaatchi", 
         "imageUrl": "img/thumbs/mc.jpg", 
         "name": "M&C Saatchi Global"
     }, 

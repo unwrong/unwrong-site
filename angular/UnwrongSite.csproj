@@ -47,7 +47,7 @@
     <Content Include="app\projects\thom_sweeney.json" />
     <Content Include="app\projects\droid-2-global-by-motorola.json" />
     <Content Include="app\projects\droid-pro-by-motorola.json" />
-    <Content Include="app\projects\lg-axis.json" />
+    <Content Include="app\projects\pointstream.json" />
     <Content Include="app\projects\flash_mob.json" />
     <Content Include="app\projects\motorola-bravo-with-motoblur.json" />
     <Content Include="app\projects\motorola-charm-with-motoblur.json" />
@@ -56,7 +56,7 @@
     <Content Include="app\projects\gartner.json" />
     <Content Include="app\projects\desire.json" />
     <Content Include="app\projects\projects.json" />
-    <Content Include="app\projects\samsung-galaxy-tab.json" />
+    <Content Include="app\projects\mcsaatchi.json" />
     <Content Include="app\projects\happy_snaps.json" />
     <Content Include="app\projects\samsung-mesmerize-a-galaxy-s-phone.json" />
     <Content Include="app\projects\samsung-showcase-a-galaxy-s-phone.json" />
