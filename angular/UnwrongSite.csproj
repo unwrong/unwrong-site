@@ -35,7 +35,6 @@
     <Content Include="app\dist\angular-carousel.css" />
     <Content Include="app\dist\angular-carousel.js" />
     <Content Include="app\index.html" />
-    <Content Include="app\carousel.html" />
     <Content Include="app\projects\battleships.json" />
     <Content Include="app\projects\bbc_gardening.json" />
     <Content Include="app\projects\ben_10.json" />
