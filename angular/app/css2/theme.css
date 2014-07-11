@@ -26,6 +26,8 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+ /* font-family: 'Buda', cursive; */
+  font-family: 'Droid Sans', sans-serif;
 }
 .footer {
   position: absolute;
