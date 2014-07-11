@@ -6,12 +6,14 @@
 // Controllers
 var aboutCtrl: AboutCtrl = new AboutCtrl();
 var contactCtrl: ContactCtrl = new ContactCtrl();
+var newsCtrl: NewsCtrl = new NewsCtrl();
 var projectListCtrl: ProjectListCtrl = new ProjectListCtrl();
 var projectDetailCtrl: ProjectDetailCtrl = new ProjectDetailCtrl();
 
 var controllers: ng.IModule = angular.module('phonecatControllers', []);
 controllers.controller('AboutCtrl', ['$scope', aboutCtrl.init]);
 controllers.controller('ContactCtrl', ['$scope', contactCtrl]);
+controllers.controller('NewsCtrl', ['$scope', newsCtrl.init]);
 controllers.controller('ProjectListCtrl', ['$scope', 'Project', projectListCtrl.init]);
 controllers.controller('ProjectDetailCtrl', ['$scope', '$sce', '$routeParams', 'Project', projectDetailCtrl.init]);
 
@@ -34,6 +36,10 @@ class RouteProvider {
             when('/contact', {
                 templateUrl: 'partials/contact.html',
                 controller: 'ContactCtrl'
+            }).
+            when('/news', {
+                templateUrl: 'partials/news.html',
+                controller: 'NewsCtrl'
             }).
             otherwise({
                 redirectTo: '/projects'

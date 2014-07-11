@@ -37,6 +37,7 @@
     <Content Include="app\index.html" />
     <Content Include="app\partials\about.html" />
     <Content Include="app\partials\contact.html" />
+    <Content Include="app\partials\news.html" />
     <Content Include="app\partials\project-list.html" />
     <Content Include="app\projects\battleships.json" />
     <Content Include="app\projects\bbc_gardening.json" />
@@ -72,6 +73,7 @@
     <TypeScriptCompile Include="app\src\app.ts" />
     <TypeScriptCompile Include="app\src\controllers\AboutCtrl.ts" />
     <TypeScriptCompile Include="app\src\controllers\ContactCtrl.ts" />
+    <TypeScriptCompile Include="app\src\controllers\NewsCtrl.ts" />
     <TypeScriptCompile Include="app\src\controllers\ProjectDetailCtrl.ts" />
     <TypeScriptCompile Include="app\src\controllers\ProjectListCtrl.ts" />
     <TypeScriptCompile Include="app\src\directives.ts" />
