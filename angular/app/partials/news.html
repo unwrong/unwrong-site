@@ -3,9 +3,21 @@
         <h1>Cadet Engine Launch</h1>
         <h2>17/06/2013 12:00 PM</h2>
         <img src="img/news/cadet.png" />
-        <p>Today we're proud to announce the launch of CadetEngine, the engine behind CadetEditor. CadetEngine is an open source, component-based ActionScript3 scene engine, which has been designed from the ground up to be plug-and-play in order to support editability.
-        <br /><br /><a href="http://www.cadeteditor.com">http://www.cadeteditor.com</a>
-        <p>what's special about CadetEngine? unlike many other game engines available in Flash, CadetEngine is fully supported by an extensible editor tool, namely CadetEditor.
-        <br /><br />please check the website for details or take a look at rob's blog post!.</p>
+        <div>
+            <p>
+                Today we're proud to announce the launch of CadetEngine, the engine behind CadetEditor. CadetEngine is an open source, component-based ActionScript3 scene engine, which has been designed from the ground up to be plug-and-play in order to support editability.
+                <br /><br /><a href="http://www.cadeteditor.com">http://www.cadeteditor.com</a>
+                <br /><br />
+                what's special about CadetEngine? unlike many other game engines available in Flash, CadetEngine is fully supported by an extensible editor tool, namely CadetEditor.
+                <br /><br />please check the website for details or take a look at rob's blog post!.
+            </p>
+        </div>
+    </div>
+
+    <div id="{{newsItem.id}}" ng-repeat="newsItem in newsItems | filter:query | orderBy:orderProp">
+        <h1>{{newsItem.title}}</h1>
+        <h2>{{newsItem.date}}</h2>
+        <img ng-src="{{newsItem.imageUrl}}">
+        <div>{{newsItem.description}}</div>
     </div>
 </div>
