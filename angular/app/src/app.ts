@@ -13,7 +13,7 @@ var projectDetailCtrl: ProjectDetailCtrl = new ProjectDetailCtrl();
 var controllers: ng.IModule = angular.module('phonecatControllers', []);
 controllers.controller('AboutCtrl', ['$scope', aboutCtrl.init]);
 controllers.controller('ContactCtrl', ['$scope', contactCtrl]);
-controllers.controller('NewsCtrl', ['$scope', newsCtrl.init]);
+controllers.controller('NewsCtrl', ['$scope', '$sce', newsCtrl.init]);
 controllers.controller('ProjectListCtrl', ['$scope', 'Project', projectListCtrl.init]);
 controllers.controller('ProjectDetailCtrl', ['$scope', '$sce', '$routeParams', 'Project', projectDetailCtrl.init]);
 
